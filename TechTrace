@@ -1,5 +1,4 @@
 from moviepy.editor import VideoFileClip #1
-
 clip = VideoFileClip("video.mp4")
 new_clip = clip.rotate(90)
 new_clip.write_videofile("rotated_video.mp4")
